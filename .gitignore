@@ -26,5 +26,5 @@ node_modules
 .idea
 
 # IISNode Config
-*.yml
-*.config
+#*.yml
+#*.config
