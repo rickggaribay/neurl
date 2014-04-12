@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "express": "3.4.8",
-    "jade": "*"
+    "jade": "*",
+    "mongoose": "*"
   },
   "description": "A URL shortening service.",
   "main": "server.js",
