@@ -1,12 +1,8 @@
 var mongoose = require('mongoose');
 //mongoose.connect('mongodb://localhost/neurl');
-
-//var cx = 'mongodb://api:p2ssw0rd1@ds030607.mongolab.com:30607/neurl';
-
 var cx = process.env.NEURL_MONGOLABSCX;
-
 mongoose.connect(cx);
-console.log("CX is:" + cx);
+
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
