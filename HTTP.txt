@@ -1,0 +1,41 @@
+Create
+
+POST
+
+http://neu.rl:8080/create
+
+User-Agent: Fiddler
+Host: localhost:8080
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+
+{"Url" : "http://rickgaribay.net"}
+
+
+===========
+
+Redirect
+
+GET
+
+http://neu.rl:8080/pewUGm
+
+User-Agent: Fiddler
+Host: neu.rl:8080
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+===========
+
+Hits
+
+GET
+
+
+http://neu.rl:8080/QTf5hu/hits
+
+User-Agent: Fiddler
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Host: neu.rl:8080
+

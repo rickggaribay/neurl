@@ -1,0 +1,22 @@
+var model = require("../model/model");
+
+var neurlPrefix = "http://neu.rl/"
+
+exports.getHits = function (neurl, callback) {
+
+    if (neurl == null) {
+        console.log("No neurl received...")
+        callback(new Error("Neurl suffix is required."), null);
+        return;
+    }
+
+    // Get the original URL from the db
+
+    model.getHits(neurl, function (error, result) {
+
+        callback(null, result)
+
+    })
+
+
+}

@@ -1,0 +1,29 @@
+{
+  "name": "neurl.it",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "*"
+  },
+  "description": "A URL shortening service.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickggaribay/neurl"
+  },
+  "author": "Rick G. Garibay",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rickggaribay/neurl/issues"
+  }
+}
